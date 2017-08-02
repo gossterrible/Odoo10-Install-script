@@ -57,7 +57,7 @@ echo -e "\n Install tool packages ===>"
 sudo apt-get install wget git python-pip python-imaging python-setuptools python-dev libxslt-dev libxml2-dev libldap2-dev libsasl2-dev node-less postgresql-server-dev-all -y
 
 echo -e "\n---- Install wkhtml and place on correct place for ODOO 10 =====>"
-sudo wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
+sudo wget https://downloads.wkhtmltopdf.org/0.12/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
 sudo dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
 sudo apt-get install -f -y
 sudo dpkg -i wkhtmltox-0.12.2.1_linux-trusty-amd64.deb
